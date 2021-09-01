@@ -8,7 +8,7 @@ public class SSOPropertyReader {
     private static String appName = "SSO Testing";
     private static String appId = "qLLXu3XBllnR90OWKzUm3NnnYLthGUMb";
     private static String secret = "bTEWXWO3orST9NVJuZjyQhe7Zumq1riigPnkBGtjfHcUSaH3qRBcm9qA3ZPMDCQp0Ueybso1siKnzOKkzN6X1kJ0cBU6eEgj3B7kvJaw60kqMAwIzvRZ5ZBKSUGWXS2ltaBDsWgQXegqhHgr1NfRgjQm8hOMDL9l9iQtyNzdL3dyqa5YfuacPDnAOF08KCAMlxPF922aQINcOFvdzuS2rS2y18hAMAatbUkwCesi3O3I3EUcN0HBwvQKyNdrUz27";
-    private static String idpUrl = "http://127.0.0.1:8088/";
+    private static String idpUrl = "http://127.0.0.1:8080/prp_sso/";
 
     private static String appNameQS = "appName";
     private static String appLoginEndPoint = "applogin";
