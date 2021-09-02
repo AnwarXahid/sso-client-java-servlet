@@ -19,7 +19,7 @@ public class AppLogin extends HttpServlet {
             String url = issoAppLogin.getLandingUrl(request);
             System.out.println("Back from IDP!! Do as you want!!!!");
 //            response.sendRedirect(url);
-            response.sendRedirect("http://localhost:8080/prp_sso/ssologout");
+            response.sendRedirect("https://103.156.52.135/prp_sso/ssologout");
         } catch (Exception ex) {
             ex.printStackTrace();
         }
