@@ -37,6 +37,7 @@ public class AppLogin extends HttpServlet {
             System.out.println("Request body data: " + request.getParameter("token") + " %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% "  + request.getParameter("csrf_token"));
 //            response.sendRedirect(url);
             response.sendRedirect("https://103.156.52.135/prp_sso/ssologout");
+//            response.sendRedirect("http://localhost:8080/prp_sso/ssologout");
         } catch (Exception ex) {
             ex.printStackTrace();
         }
